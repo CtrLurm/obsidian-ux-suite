@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-recycle-bin",
+  "name": "回收站",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "在 Obsidian 内集中管理删除的文件：批量恢复或彻底删除，不再依赖系统回收站。",
+  "author": "CtrLurm",
+  "authorUrl": "",
+  "isDesktopOnly": true
+}

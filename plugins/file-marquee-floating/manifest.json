@@ -1,0 +1,10 @@
+{
+  "id": "file-marquee-floating",
+  "name": "文件框选与浮窗",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "在文件列表中长按框选多个文件或文件夹，批量移动或删除，并可把文件列表和功能区拉出为浮动小窗。",
+  "author": "CtrLurm",
+  "authorUrl": "",
+  "isDesktopOnly": true
+}

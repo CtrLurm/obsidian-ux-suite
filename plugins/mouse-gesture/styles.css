@@ -1,0 +1,108 @@
+/* 手势轨迹层：覆盖窗口但不拦截鼠标事件 */
+.mouse-gesture-overlay {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  pointer-events: none;
+  background: transparent;
+}
+
+.mouse-gesture-settings .mouse-gesture-desc {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  line-height: 1.6;
+  margin-top: 0;
+}
+
+/* 映射表占满整行，避免被 Setting 的左右布局压窄 */
+.mouse-gesture-mapping-setting.setting-item {
+  display: block;
+}
+
+.mouse-gesture-mapping-setting .setting-item-info {
+  margin-bottom: 10px;
+}
+
+.mouse-gesture-mapping-setting .setting-item-control {
+  justify-content: flex-start;
+}
+
+.mouse-gesture-mapping-input {
+  width: 100%;
+  min-height: 220px;
+  font-family: var(--font-monospace);
+  font-size: var(--font-ui-small);
+  line-height: 1.6;
+  resize: vertical;
+  tab-size: 2;
+}
+
+.mouse-gesture-feedback {
+  margin: 4px 0 18px;
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  line-height: 1.6;
+}
+
+.mouse-gesture-feedback.is-error {
+  color: var(--text-error);
+}
+
+.mouse-gesture-feedback.is-warning {
+  color: var(--text-warning);
+}
+
+.mouse-gesture-feedback ul {
+  margin: 4px 0;
+  padding-left: 20px;
+}
+
+.mouse-gesture-feedback li {
+  margin: 2px 0;
+}
+
+.mouse-gesture-actions {
+  margin-top: 12px;
+  padding-top: 8px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.mouse-gesture-actions summary {
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+}
+
+.mouse-gesture-action-list {
+  columns: 2;
+  column-gap: 24px;
+  margin: 10px 0;
+  padding-left: 20px;
+  font-size: var(--font-ui-small);
+}
+
+.mouse-gesture-action-list li {
+  break-inside: avoid;
+  margin-bottom: 4px;
+}
+
+.mouse-gesture-command {
+  color: var(--text-faint);
+  font-family: var(--font-monospace);
+  font-size: 11px;
+}
+
+.mouse-gesture-actions-tip {
+  margin-top: 8px;
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  line-height: 1.7;
+}
+
+@media (max-width: 720px) {
+  .mouse-gesture-action-list {
+    columns: 1;
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "obsidian-mouse-gesture",
+  "version": "1.0.0",
+  "description": "Edge 风格的鼠标右键手势插件 for Obsidian",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit && node esbuild.config.mjs production",
+    "test": "node scripts/run-tests.mjs",
+    "smoke": "node scripts/smoke-load.mjs",
+    "package": "node scripts/package.mjs",
+    "release": "npm run build && npm run test && npm run smoke && npm run package"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidian-plugin",
+    "mouse-gesture"
+  ],
+  "author": "CtrLurm",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "esbuild": "^0.28.0",
+    "obsidian": "^1.14.0",
+    "tslib": "^2.8.0",
+    "typescript": "^5.7.0"
+  }
+}

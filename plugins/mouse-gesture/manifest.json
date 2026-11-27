@@ -1,0 +1,10 @@
+{
+  "id": "mouse-gesture",
+  "name": "鼠标手势",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "像 Edge 一样按住鼠标右键拖动：前进、后退、关闭标签、回到顶部、切换标签页等，手势可自定义。",
+  "author": "CtrLurm",
+  "authorUrl": "",
+  "isDesktopOnly": true
+}
