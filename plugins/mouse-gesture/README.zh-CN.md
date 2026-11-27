@@ -54,7 +54,7 @@ D = none
 
 ## 安装
 
-见[套件安装说明](../../README.zh-CN.md#安装)。插件 ID 为 `mouse-gesture`。
+见[套件安装说明](../../README.md#%E4%B8%AD%E6%96%87)。插件 ID 为 `mouse-gesture`。
 
 ## 说明
 
@@ -63,4 +63,4 @@ D = none
 - 输入框和文本区域保留正常的右键行为。
 - 手势映射保存在插件数据中，重启后仍然有效。
 
-属于 [Obsidian 体验优化套件](../../README.zh-CN.md)。
+属于 [Obsidian 体验优化套件](../../README.md#%E4%B8%AD%E6%96%87)。

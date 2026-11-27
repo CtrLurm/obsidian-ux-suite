@@ -50,6 +50,6 @@
 
 ## 安装
 
-见[套件安装说明](../../README.zh-CN.md#安装)。插件 ID 为 `file-marquee-floating`。
+见[套件安装说明](../../README.md#%E4%B8%AD%E6%96%87)。插件 ID 为 `file-marquee-floating`。
 
-属于 [Obsidian 体验优化套件](../../README.zh-CN.md)。
+属于 [Obsidian 体验优化套件](../../README.md#%E4%B8%AD%E6%96%87)。
